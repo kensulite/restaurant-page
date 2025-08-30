@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Vallhalla";
+    src: url("./assets/va-11-hall-a-6px-non-mono.otf") format("opentype");
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -10,4 +15,9 @@ body {
     flex-direction: column;
     background-image: url("./assets/ytwI5JT.png");
     background-repeat: repeat;
+    font-family: "Vallhalla", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    font-family: inherit;
 }
