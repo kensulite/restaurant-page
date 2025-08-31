@@ -67,3 +67,14 @@ nav button:hover {
 nav button:active {
     color: var(--cb-dark-blue);
 }
+
+main {
+    width: 600px;
+    margin-top: 3rem;
+    border: var(--cb-light-blue) 2px solid;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
