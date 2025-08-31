@@ -24,6 +24,7 @@ body {
     background-repeat: repeat;
     font-family: "Vallhalla", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     align-items: center;
+    padding-bottom: 3rem;
 }
 
 button {
@@ -69,7 +70,7 @@ nav button:active {
 }
 
 main {
-    width: 600px;
+    width: 700px;
     margin-top: 3rem;
     border: var(--cb-light-blue) 2px solid;
     color: var(--cb-fuchsia);
@@ -79,10 +80,20 @@ main {
     align-items: center;
 }
 
+p {
+    color: #FFFF;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
 
 .home h2 {
     text-align: center;
     margin: 2rem 0;
+}
+
+.home p {
+    margin: 0 1rem 2rem 1rem;
 }
 
 main img {
