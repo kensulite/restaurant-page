@@ -1,6 +1,6 @@
 
 const createAbout = () => {
-    const main = document.createElement("about");
+    const main = document.createElement("main");
     main.classList.add("about");
     return main;
 }
