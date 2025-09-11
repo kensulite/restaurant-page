@@ -74,6 +74,7 @@ const menu = [
             "Powdered Delta": 3
         },
         image: {
+            src: FluffyDream,
             width: 205,
             height: 105
         }
