@@ -1,6 +1,6 @@
-import { createHomepage } from "./home";
-import { createAbout } from "./about";
-import { createMenu } from "./menu";
+import { createHomepage } from "./pages/home";
+import { createAbout } from "./pages/about";
+import { createMenu } from "./pages/menu";
 import "./style.css";
 
 const paths = {

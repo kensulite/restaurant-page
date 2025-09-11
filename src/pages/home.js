@@ -1,4 +1,4 @@
-import banner from "./assets/Site-background-dark.png"
+import banner from "../assets/Site-background-dark.png"
 
 const createHomepage = () => {
     const main = document.createElement("main");

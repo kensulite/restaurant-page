@@ -1,3 +1,4 @@
+import { menu } from "../data";
 
 const createMenu = () => {
     const main = document.createElement("main");
