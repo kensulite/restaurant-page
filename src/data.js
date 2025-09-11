@@ -15,7 +15,11 @@ const menu = [
             "Flanergide": 2,
             "Karmotrine": 4
         },
-        image: BadTouch
+        image: {
+            src: BadTouch,
+            width: 205,
+            height: 140
+        }
     },
     {
         name: "Bleeding Jane",
@@ -26,7 +30,11 @@ const menu = [
             "Powdered Delta": 3,
             "Flanergide": 3
         },
-        image: BleedingJane
+        image: {
+            src: BleedingJane,
+            width: 205,
+            height: 105
+        }
     },
     {
         name: "Blue Fairy",
@@ -36,7 +44,11 @@ const menu = [
             "Adelhyde": 4,
             "Flanergide": 1,
         },
-        image: BlueFairy
+        image: {
+            src: BlueFairy,
+            width: 205,
+            height: 105
+        }
     },
     {
         name: "Cobalt Velvet",
@@ -47,7 +59,11 @@ const menu = [
             "Flanergide": 3,
             "Karmotrine": 5
         },
-        image: CobaltVelvet
+        image: {
+            src: CobaltVelvet,
+            width: 205,
+            height: 105
+        }
     },
     {
         name: "Fluffy Dream",
@@ -57,7 +73,10 @@ const menu = [
             "Adelhyde": 3,
             "Powdered Delta": 3
         },
-        image: FluffyDream
+        image: {
+            width: 205,
+            height: 105
+        }
     }
 ]
 

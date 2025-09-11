@@ -6,4 +6,16 @@ const createMenu = () => {
     return main;
 }
 
+const createMenuItem = (item) => {
+
+}
+
+const createItemImage = (source, width, height) => {
+    const image = document.createElement("img");
+    image.src = source;
+    image.width = width;
+    image.height = height;
+    return image;
+}
+
 export { createMenu }
