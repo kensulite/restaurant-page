@@ -34,6 +34,7 @@ button {
 header {
     display: flex;
     flex-direction: column;
+    width: 700px;
     align-items: center;
     margin-top: 3rem;
     background-color: rgba(0, 0, 0, 0.3);
@@ -53,7 +54,7 @@ nav {
 }
 
 nav button {
-    font-size: 1rem;
+    font-size: 1.1rem;
     background-color: transparent;
     border: 2px solid var(--cb-light-blue);
     color: var(--cb-fuchsia);
@@ -73,11 +74,16 @@ main {
     width: 700px;
     margin-top: 3rem;
     border: var(--cb-light-blue) 2px solid;
-    color: var(--cb-fuchsia);
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home {
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+.home h2 {
+    color: var(--cb-fuchsia);
 }
 
 p {
@@ -96,7 +102,7 @@ p {
     margin: 0 1rem 2rem 1rem;
 }
 
-main img {
+.banner {
     width: 100%;
     height: auto;
 }
