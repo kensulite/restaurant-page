@@ -13,8 +13,10 @@ const createMenuItem = (item) => {
     const container = document.createElement("article");
     const image = createItemImage(item.image);
     const information = document.createElement("div");
+    information.classList.add("information");
     const heading = createItemHeading(item.name);
-    information.append(heading);
+    const description = createItemDescription(item.description);
+    information.append(heading, description);
     container.append(image, information);
     return container;
 }
@@ -32,6 +34,12 @@ const createItemHeading = (name) => {
     const heading = document.createElement("h2");
     heading.textContent = name;
     return heading;
+}
+
+const createItemDescription = (description) => {
+    const paragraph = document.createElement("p");
+    paragraph.textContent = description;
+    return paragraph;
 }
 
 export { createMenu }
