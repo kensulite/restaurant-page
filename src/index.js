@@ -28,5 +28,5 @@ const changePath = (newPath) => {
     container.append(paths[newPath]());
 }
 
-changePath("Home");
+changePath("Menu");
 addNavigationEvents();
