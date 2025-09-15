@@ -16,8 +16,9 @@ const createMenuItem = (item) => {
     information.classList.add("information");
     const heading = createItemHeading(item.name);
     const description = createItemDescription(item.description);
-    information.append(heading, description);
-    container.append(image, information);
+    const properties = createItemProperties(item.properties);
+    information.append(heading, description, properties);
+    container.append(information, image);
     return container;
 }
 
@@ -39,6 +40,24 @@ const createItemHeading = (name) => {
 const createItemDescription = (description) => {
     const paragraph = document.createElement("p");
     paragraph.textContent = description;
+    return paragraph;
+}
+
+const createItemProperties = (properties) => {
+    const paragraph = document.createElement("p");
+    for (let i = 0; i < properties.length; i++) {
+        if (i === properties.length - 1) {
+            const andNode = document.createTextNode(" and ");
+            paragraph.append(andNode);
+        }
+        const strongTag = document.createElement("strong");
+        strongTag.textContent = properties[i];
+        paragraph.append(strongTag);
+        if (i === 0) {
+            const spaceNode = document.createTextNode(", ");
+            paragraph.append(spaceNode);
+        }
+    }
     return paragraph;
 }
 

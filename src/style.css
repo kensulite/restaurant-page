@@ -108,7 +108,7 @@ p {
 }
 
 .menu {
-    padding: 3rem 3rem 3rem 0;
+    padding: 3rem 0 3rem 3rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -117,6 +117,7 @@ p {
 .menu article {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .menu .information {
