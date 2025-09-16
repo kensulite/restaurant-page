@@ -3,6 +3,8 @@ import Banner from "../assets/VA-11_HALL-A.png"
 
 const createAbout = () => {
     const main = document.createElement("main");
+    const heading = createHeading();
+    main.append(heading);
     const paragraphs = createParagraphs();
     for (const paragraph of paragraphs) {
         main.append(paragraph);
@@ -11,6 +13,12 @@ const createAbout = () => {
     main.append(banner);
     main.classList.add("about");
     return main;
+}
+
+const createHeading = () => {
+    const heading = document.createElement("h2");
+    heading.textContent = "VA-11 HALL-A";
+    return heading;
 }
 
 const createParagraphs = () => {

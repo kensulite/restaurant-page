@@ -177,4 +177,11 @@ p {
 .about img {
     width: 100%;
     height: auto;
+    margin-top: 1rem;
+}
+
+.about h2 {
+    color: var(--cb-fuchsia);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
