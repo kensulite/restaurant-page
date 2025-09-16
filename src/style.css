@@ -173,3 +173,8 @@ p {
 .about p {
     margin-bottom: 1rem;
 }
+
+.about img {
+    width: 100%;
+    height: auto;
+}
