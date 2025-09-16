@@ -70,6 +70,11 @@ nav button:active {
     color: var(--cb-dark-blue);
 }
 
+#content {
+    display: flex;
+    justify-content: center;
+}
+
 main {
     width: 700px;
     margin-top: 3rem;
@@ -184,4 +189,14 @@ p {
     color: var(--cb-fuchsia);
     margin-bottom: 2rem;
     margin-top: 2rem;
+}
+
+@media screen and (max-width:800px) {
+    main {
+        width: 90%;
+    }
+
+    header {
+        width: 90%;
+    }
 }
