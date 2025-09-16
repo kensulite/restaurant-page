@@ -15,6 +15,7 @@ const menu = [
             "Flanergide": 2,
             "Karmotrine": 4
         },
+        price: 250,
         image: {
             src: BadTouch,
             width: 205,
@@ -30,6 +31,7 @@ const menu = [
             "Powdered Delta": 3,
             "Flanergide": 3
         },
+        price: 200,
         image: {
             src: BleedingJane,
             width: 205,
@@ -44,6 +46,7 @@ const menu = [
             "Adelhyde": 4,
             "Flanergide": 1,
         },
+        price: 170,
         image: {
             src: BlueFairy,
             width: 205,
@@ -59,6 +62,7 @@ const menu = [
             "Flanergide": 3,
             "Karmotrine": 5
         },
+        price: 280,
         image: {
             src: CobaltVelvet,
             width: 205,
@@ -73,6 +77,7 @@ const menu = [
             "Adelhyde": 3,
             "Powdered Delta": 3
         },
+        price: 170,
         image: {
             src: FluffyDream,
             width: 205,

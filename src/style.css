@@ -111,7 +111,7 @@ p {
     padding: 3rem 0 3rem 3rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .menu article {
@@ -132,7 +132,7 @@ p {
 
 
 .marquee {
-    margin-top: 3rem;
+    margin-top: 4rem;
     --gap: 0rem;
     display: flex;
     overflow: hidden;
@@ -158,4 +158,8 @@ p {
     to {
         transform: translateX(calc(0 - var(--gap)));
     }
+}
+
+.price {
+    font-size: 1.2rem;
 }

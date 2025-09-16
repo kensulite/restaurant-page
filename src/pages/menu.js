@@ -17,7 +17,8 @@ const createMenuItem = (item) => {
     const heading = createItemHeading(item.name);
     const description = createItemDescription(item.description);
     const properties = createItemProperties(item.properties);
-    information.append(heading, description, properties);
+    const price = createItemPrice(item.price);
+    information.append(heading, description, properties, price);
     container.append(information, image);
     return container;
 }
@@ -58,6 +59,13 @@ const createItemProperties = (properties) => {
             paragraph.append(spaceNode);
         }
     }
+    return paragraph;
+}
+
+const createItemPrice = (price) => {
+    const paragraph = document.createElement("p");
+    paragraph.classList.add("price");
+    paragraph.textContent = `$${price}`;
     return paragraph;
 }
 
