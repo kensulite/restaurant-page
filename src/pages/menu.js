@@ -4,12 +4,12 @@ const createMenu = () => {
     const main = document.createElement("main");
     main.classList.add("menu");
     for (const item of menu) {
-        main.append(createMenuItem(item));
+        main.append(createItem(item));
     }
     return main;
 }
 
-const createMenuItem = (item) => {
+const createItem = (item) => {
     const container = document.createElement("article");
     const image = createItemImage(item.image);
     const information = document.createElement("div");

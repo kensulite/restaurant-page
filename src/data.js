@@ -86,4 +86,11 @@ const menu = [
     }
 ]
 
-export { menu }
+const aboutParagraphs = [
+    "Nestled in the rundown heart of Glitch City’s downtown slums, VA-11 HALL-A is more than just a bar — it’s a sanctuary for the broken, the tired, and the forgotten. Operating quietly under a modest neon sign, the bar doesn’t scream for attention. It doesn’t need to. The right people always seem to find their way in.",
+    "Here, the drinks are strong, the stories stronger, and the atmosphere soaked in lo-fi synths and cigarette smoke. In a city ruled by oppressive corporations, corrupt law enforcement, and digital surveillance, VA-11 HALL-A offers rare freedom — a space where people can speak freely, cry quietly, and be seen for who they really are.",
+    "Run by Jill Stingray, a bartender with a sharp tongue and a soft heart, Valhalla is less about serving alcohol and more about serving connection. Every drink tells a story — not just of its ingredients, but of the person drinking it. Whether it’s a tired hacker, a sentient AI, or a disillusioned cop, everyone brings something to the bar… and leaves a little changed.",
+    "No fancy flair. No corporate backing. Just good drinks, better music, and the best kind of company: the kind that doesn't ask questions."
+]
+
+export { menu, aboutParagraphs }
